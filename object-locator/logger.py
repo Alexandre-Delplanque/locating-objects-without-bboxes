@@ -18,7 +18,7 @@ __version__ = "1.6.0"
 import visdom
 import torch
 import numbers
-from . import utils
+import utils
 
 from torch.autograd import Variable
 
