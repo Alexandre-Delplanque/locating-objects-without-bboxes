@@ -24,8 +24,8 @@ from tqdm import tqdm
 import numpy as np
 import pandas as pd
 
-from . import metrics
-from . import get_image_size
+import metrics
+import get_image_size
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(
