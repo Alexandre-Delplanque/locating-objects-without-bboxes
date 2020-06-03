@@ -27,10 +27,10 @@ import torch
 from torchvision import transforms
 from torch.utils import data
 
-from .data import CSVDataset
-from .data import csv_collator
-from . import argparser
-from . import utils
+from data import CSVDataset
+from data import csv_collator
+import argparser
+import utils
 
 
 # Parse command line arguments
