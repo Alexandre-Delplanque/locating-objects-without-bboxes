@@ -37,14 +37,14 @@ from peterpy import peter
 from ballpark import ballpark
 from matplotlib import pyplot as plt
 
-from . import losses
-from .models import unet_model
-from .data import CSVDataset
-from .data import csv_collator
-from .data import RandomHorizontalFlipImageAndLabel
-from .data import RandomVerticalFlipImageAndLabel
-from .data import ScaleImageAndLabel
-from . import argparser
+import losses
+from models import unet_model
+from data import CSVDataset
+from data import csv_collator
+from data import RandomHorizontalFlipImageAndLabel
+from data import RandomVerticalFlipImageAndLabel
+from data import ScaleImageAndLabel
+import argparser
 
 
 # Parse command line arguments
